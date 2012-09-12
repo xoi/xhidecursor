@@ -1,0 +1,24 @@
+xhidecursor is a hiding cursor utility for X servers supporting the
+XFIXES and XI2 extensions.  It hides idle cursor from screen like unclutter.
+It dose not the following things unlike unclutter.
+
+  - do a grab cursor
+  - create a small subwindow
+
+This helps to avoid problems with some grabbing applications and xmonad.
+
+The simplest way to compile and install this package from repository is:
+
+  - `cd' to the directory containing the package's source code and
+    type the following command.
+
+    $ autoreconf -i
+    $ ./configure
+    $ make
+    # make install
+
+Usage:
+
+  xhidecursor [idle_time]
+
+  idle_time is the number of seconds to idleness.  The default is 5.

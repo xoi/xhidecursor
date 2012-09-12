@@ -1,0 +1,4 @@
+bin_PROGRAMS = xhidecursor
+
+AM_CFLAGS = $(XHIDECURSOR_CFLAGS)
+xhidecursor_LDADD = $(XHIDECURSOR_LIBS)
