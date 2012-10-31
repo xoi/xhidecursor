@@ -7,12 +7,15 @@ It dose not the following things unlike unclutter.
 
 This helps to avoid problems with some grabbing applications and xmonad.
 
-The simplest way to compile and install this package from repository is:
+The simplest way to compile and install this package is:
 
-  - `cd' to the directory containing the package's source code and
-    type the following command.
+  - `cd' to the directory containing the package's source code.
 
-    $ autoreconf -i
+  - When you compile from repository, type `autoreconf -i' to create
+    `configure'.
+
+  - Type the following command.
+
     $ ./configure
     $ make
     # make install
