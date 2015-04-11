@@ -11,7 +11,7 @@ AC_CONFIG_HEADERS([config.h])
 AC_PROG_CC
 
 # Checks for libraries.
-PKG_CHECK_MODULES(XHIDECURSOR, xfixes xi)
+PKG_CHECK_MODULES(XHIDECURSOR, x11 xfixes xi)
 
 # Checks for header files.
 AC_CHECK_HEADERS([stdlib.h string.h])
